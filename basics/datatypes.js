@@ -19,5 +19,5 @@ let state;
  // symbol > uniqueness 
  // object 
  console.log(typeof "raunak")
- console.log(typeof null)
- console.log(typeof undefined)
+ console.log(typeof null)// type is object 
+ console.log(typeof undefined)// type is undefined 

@@ -32,7 +32,7 @@ let myobj={
 } 
 
 const myfunction=function(){
-  console.log("hello world");
+  console.log("hello world");  // functions are object too
   
 } 
  console.log(typeof outsideTEmperature );
@@ -42,6 +42,6 @@ const myfunction=function(){
  console.log(typeof myobj);
  console.log(typeof id);
  console.log(typeof bigNumber);
- console.log(typeof scoreValue);
+ console.log(typeof scoreValue); 
  console.log(typeof score);
  

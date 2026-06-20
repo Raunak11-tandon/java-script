@@ -35,13 +35,35 @@ const myfunction=function(){
   console.log("hello world");  // functions are object too
   
 } 
- console.log(typeof outsideTEmperature );
- console.log(typeof isLoggedIn);
- console.log(typeof heros);
- console.log(typeof myfunction);
- console.log(typeof myobj);
- console.log(typeof id);
- console.log(typeof bigNumber);
- console.log(typeof scoreValue); 
- console.log(typeof score);
+//  console.log(typeof outsideTEmperature );
+//  console.log(typeof isLoggedIn);
+//  console.log(typeof heros);
+//  console.log(typeof myfunction);
+//  console.log(typeof myobj);
+//  console.log(typeof id);
+//  console.log(typeof bigNumber);
+//  console.log(typeof scoreValue); 
+//  console.log(typeof score); 
+
+//++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+// memory - stack(primitive type) ,   heap()
+
+let MyYoutube="raunak tandon dot com"// primitive they will go in stack 
+let anothername= MyYoutube 
+anothername="chai aur code" 
+console.log(anothername) 
+console.log(MyYoutube)  
+// object are non-primitve so they will go in heap 
+// in heap refernce is given
+let userone={
+  email:"1gmail.com",
+  age:20,
+} 
+let usertwo=userone     // user two access the reference of userone
+usertwo.email="raunak@gmail.com" // inside ibject we access using .(dot)
+ console.log(usertwo.email);
+ console.log(userone.email);    // now userone email is also same because of reference 
+   // in reference we change in the original value while in primitive we get a copy 
  
+       

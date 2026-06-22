@@ -2,7 +2,9 @@ const myarray=[0,1,2,3,4,5]
 const heros=["shaktiman","ninja hatori"]
 
 // console.log(myarray); 
-// console.log(heros); 
+// console.log(heros);  
+
+// shallow and deep copies
  
 const myarr= new Array(1,2,3)
 // console.log(myarr);

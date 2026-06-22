@@ -13,7 +13,7 @@ const balance = new Number(100)
 //  console.log(hundred.toLocaleString('en-IN')); 
 
 
-//  ++++++++++++++++++++++++++++++++maths+++++++++++++++++++++++++++++++++++
+// ++++++++++++++++++++++++++++++++maths+++++++++++++++++++++++++++++++++++
     
 // console.log(Math);
 // console.log(Math.abs(-4));
@@ -28,6 +28,4 @@ const balance = new Number(100)
 
 const min=10
 const max=20
-
-
 console.log(Math.floor(Math.random() * (max-min+1)) +min)
